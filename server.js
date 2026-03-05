@@ -12,10 +12,7 @@ const io = new Server(server, {
     cors: {
         // 배열 안에 로컬 주소와 나중에 올릴 내 Github Pages 주소를 모두 넣습니다.
         // ⚠️ "내아이디" 부분을 본인의 진짜 Github 아이디로 변경하세요!
-        origin: [
-            "http://localhost:5173",
-            "[https://RYOOYO.github.io](https://RYOOYO.github.io)"
-        ],
+        origin: ["http://localhost:5173", "https://ryooyo.github.io"],
         methods: ["GET", "POST"],
         credentials: true
     }
